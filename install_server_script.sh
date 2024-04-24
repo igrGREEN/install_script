@@ -1,12 +1,12 @@
 #!/bin/sh
 mkdir -p /root/trojangfw/
-wget -O /root/server_linux_386  http://domain/server_linux_386
-wget -O /root/trojangfw/client.json  http://domain/trojangfw/client.json
-wget -O /root/trojangfw/config.json  http://domain/trojangfw/config.json
-wget -O /root/trojangfw/rootSSL.crt  http://domain/trojangfw/rootSSL.crt
-wget -O /root/trojangfw/rootSSL.key  http://domain/trojangfw/rootSSL.key
-wget -O /root/trojangfw/server.json  http://domain/trojangfw/server.json
-wget -O /root/trojangfw/trojan  http://domain/trojangfw/trojan
+wget -O /root/server_linux_386  https://igrgreen.github.io/install_script/server_linux_386
+wget -O /root/trojangfw/client.json  https://igrgreen.github.io/install_script/trojangfw/client.json
+wget -O /root/trojangfw/config.json  https://igrgreen.github.io/install_script/trojangfw/config.json
+wget -O /root/trojangfw/rootSSL.crt  https://igrgreen.github.io/install_script/trojangfw/rootSSL.crt
+wget -O /root/trojangfw/rootSSL.key  https://igrgreen.github.io/install_script/trojangfw/rootSSL.key
+wget -O /root/trojangfw/server.json  https://igrgreen.github.io/install_script/trojangfw/server.json
+wget -O /root/trojangfw/trojan  https://igrgreen.github.io/install_script/trojangfw/trojan
 
 chmod +x /root/server_linux_386
 chmod +x /root/trojangfw/trojan
